@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+.buttonGroup {
+	size: 20px;
+	background: #3498db;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+}
+
+.buttonGroup:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+.login-form input[type="submit"] {
+	height: 30px;
+	width: 100px;
+	background: #fff;
+	border: 1px solid #f2f2f2;
+	border-radius: 20px;
+	color: slategrey;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.inputTable {
+	background-color: #c0c0c0;
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin: 5%;
+	border:1px;
+}

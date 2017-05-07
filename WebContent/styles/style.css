@@ -1,0 +1,327 @@
+body {
+	font: 100% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff url(blossoms.jpg) no-repeat bottom right;
+	margin: 0;
+	padding: 0;
+}
+/* h1 { 
+	background: transparent url(h1.gif) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	} */
+h2 {
+	background: transparent url(h2.gif) no-repeat top left;
+	margin-top: 58px;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 18px;
+	float: right;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.summary {
+	clear: both;
+	margin: 20px 20px 20px 10px;
+	width: 160px;
+	float: left;
+}
+
+.sidebar {
+	margin-left: 600px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+button {
+	border: thin;
+	border-style: none none none none;
+	background: transparent;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	white-space: normal;
+	width: auto;
+}
+
+frame {
+	margin: 0px 0px 0px 0px;
+	border: none;
+	border-width: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+table.framed {
+	border: thin groove Maroon;
+}
+
+.applicationTitle {
+	background: #660000;
+	color: white;
+	font-size: 16pt;
+}
+
+.pageTitle {
+	color: #003366;
+	font-weight: lighter;
+	font-size: 16pt;
+}
+
+.userTitle {
+	color: #000066;
+	font-size: 12pt;
+	font-weight: lighter;
+}
+
+.listSectionHeading {
+	color: #000066;
+	font-size: 11pt;
+	background: #EEEEFF;
+	text-align: left;
+}
+
+.even {
+	background-color: #EFFBEF;
+}
+
+.odd {
+	background-color: white;
+}
+
+td, ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+.no-margin {
+	margin: 0px;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+/*---------------------------------Header---------------------------------*/
+#page-header {
+	height: 75px;
+}
+/* #container1{
+	background: url(../img/Campus.jpg);
+} */
+#logo img {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+
+/*---------------------------------Nav_Menu---------------------------------*/
+#nav-container {
+	height: 30px;
+	background-color: #7ec601;
+}
+
+#nav_wrapper a {
+	font-family: Cambria;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+#nav_wrapper a:link {
+	text-decoration: none;
+}
+
+#nav_wrapper ul li {
+	list-style: none; /*#7ec601*/
+	display: inline; /*#207a00*/
+	font-weight: bold;
+	/* padding: 7px 6px 5px 6px; */
+	padding: 6px 20px 4.5px 20px;
+}
+
+#nav_wrapper ul li:hover {
+	background: #207a00;
+	transition: all 1s;
+}
+
+/*---------------------------------Left_Nav_Menu---------------------------------*/
+#left-nav-container {
+	width: 250px;
+	background: rgb(239, 123, 0);
+}
+
+#sidebar-wrapper {
+	height: 485px;
+}
+
+#sidebar-wrapper a {
+	font-size: 17px;
+	font-family: Cambria;
+	font-weight: bold;
+	/* color:#000000; */
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.sidebar-nav li a {
+	display: block;
+	text-decoration: none;
+	color: #4c4c4c;
+}
+
+.sidebar-nav li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(73, 73, 73, 0.7);
+	transition: all 1s;
+}
+
+.sidebar-nav>.sidebar-brand {
+	list-style: none;
+	height: 65px;
+	font-family: Cambria;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	color: #4c4c4c;
+	text-align: center;
+	line-height: 30px;
+}
+
+.nav-divider {
+	height: 1px;
+	margin: 0px;
+	background-color: black;
+}
+
+/*---------------------------------Body---------------------------------*/
+#content-container {
+	height: 400px;
+}
+
+/*---------------------------------Footer---------------------------------*/
+footer {
+	height: 150px;
+	bottom: 0px;
+}
+
+.footer-basic-centered {
+	background-color: #7ec601;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.footer-basic-centered .footer-company-motto {
+	font-size: 20px;
+}
+
+.footer-basic-centered .footer-company-name {
+	font-size: 14px;
+}
+
+/* CSS */
+.btnExample {
+	color: #900;
+	background: #FF0;
+	font-weight: bold;
+	border: 1px solid #900;
+}
+
+.btnExample:hover {
+	color: #FFF;
+	background: #900;
+}
+
+/*For Link*/
+.lnkGroup {
+	background-color: #c0c0c0;
+	color: black;
+	padding: 7px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.lnkGroup:hover, .lnkGroup:active {
+	background-color: #3cb0fd;
+}
+
+/*---------------------------------Table---------------------------------*/
+.borderAll {
+	background-color: #c0c0c0;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*---------------------------------Button---------------------------------*/
+/* .button {
+    background-color: #4CAF50; Green
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; Safari
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button5 {
+	border-radius:3px;
+    background-color: white;
+    color: black;
+    border: 2px solid #808080;
+}
+.button5:hover {
+    background-color: #808080;
+    color: white;
+} */
+//////////////////////////////
+Nwe ///////////////////////////
+/* .buttonGroup input[type="submit"] {
+	size: 20px;
+	background: #3498db;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+}
+
+.buttonGroup:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+} */
+
+/////
+TextBox ///
+.txtGroup {
+	height: 30px;
+	border: 3px solid #EBE6E2;
+	border-radius: 5px;
+	transition: all 0.3s ease-out;
+	width: 27px;
+}
+
+.txtGroup:focus {
+	border-color: #BBB;
+	outline: none;
+}
